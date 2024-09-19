@@ -49,3 +49,4 @@ document.getElementById('reset').addEventListener('click', () => {
   document.getElementById('computer-score').textContent = computerScore;
   document.getElementById('result').textContent = 'Game reset. Make a new choice!';
 });
+
