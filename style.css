@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
-    background: linear-gradient(to right, #ff9966, #ff5e62);
+    background: linear-gradient(to right, #ff9966, #be8283);
   }
   
   h1 {
@@ -63,3 +63,4 @@ body {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.1);
 }
+
