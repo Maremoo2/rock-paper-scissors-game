@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
   }
   
   h1 {
@@ -26,6 +27,8 @@ body {
   button {
     padding: 10px 20px;
     font-size: 16px;
+    transform: scale(1.1);
+    transition: 0.3s;
   }
   
   #result {
@@ -33,6 +36,17 @@ body {
     font-size: 20px;
   }
   
+  #result.win {
+    color: green;
+    font-weight: bold;
+}
+#result.lose {
+    color: red;
+    font-weight: bold;
+}
+#result.draw {
+    color: orange;
+}
   #reset {
     margin-top: 20px;
     padding: 10px 20px;
@@ -41,4 +55,11 @@ body {
     color: white;
     border: none;
   }
-  
+
+
+.scoreboard {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
